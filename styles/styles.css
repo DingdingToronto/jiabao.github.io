@@ -1,0 +1,150 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the body with a cheerful background and fun fonts */
+body {
+  background: linear-gradient(135deg, #ffdb58, #ff72a0);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+/* Style the header box with a vibrant pink background and center the text */
+.box {
+  display: flex;
+  background-color: #ff72a0;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+  height: 60px;
+  width: 60px;
+  padding-left: 50px;
+}
+
+/* Style the logo text with a playful font and rainbow colors */
+.logo {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;
+  color: #ffdb58;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the navigation menu with colorful buttons */
+.nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ff72a0;
+  padding: 8px 16px;
+  background-color: #ffdb58;
+  border-radius: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  background-color: #ff9cbb;
+}
+.left-centre-right {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+/* Style the main content sections with a playful background and rounded borders */
+.left,
+.centre,
+.right {
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the lower navigation menu with colorful buttons */
+.lower_nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.lower_nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.lower_nav li {
+  margin-right: 10px;
+}
+
+.lower_nav a {
+  text-decoration: none;
+  color: #ff72a0;
+  padding: 8px 16px;
+  background-color: #ffdb58;
+  border-radius: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.lower_nav a:hover {
+  background-color: #ff9cbb;
+}
+
+/* Style the legal information section with a playful background */
+.legal {
+  background: radial-gradient(circle, #ff72a0, #ffdb58);
+
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.legal ul {
+  list-style: none;
+}
+.deadnav {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;
+  color: #fff;
+  background-color: pink;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
